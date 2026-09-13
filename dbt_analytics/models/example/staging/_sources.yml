@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: northwind
+    description: "The Northwind database is a sample database provided by Microsoft that contains data for a fictitious company called Northwind Traders. The database includes tables for customers, orders, products, suppliers, and employees, among others. It is often used for learning and testing purposes in database management and business intelligence applications."
+    schema: "public"
+    tables:
+      - name: customers
+        description: "Contains information about the customers of Northwind Traders, including their contact details and company information."
+      - name: orders
+        description: "Contains information about the orders placed by customers, including order dates, shipping details, and order status."
+      - name: order_details
+        description: "Contains detailed information about the products included in each order, including product IDs, quantities, and prices."
+      - name: products
+        description: "Contains information about the products sold by Northwind Traders, including product names, categories, prices, and stock levels."
+      - name: employees
+        description: "Contains information about the employees of Northwind Traders, including their personal details, job titles, and contact information."
